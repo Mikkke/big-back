@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "michaeljoseph",
+    "password": null,
+    "database": "modelassos",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": null
+  }
+}
