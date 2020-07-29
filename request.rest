@@ -1,0 +1,11 @@
+GET http://localhost:8080/api/produits
+
+###
+POST  http://localhost:8080/api/produits
+Content-Type: application/json
+
+{
+"name": "jean",
+"email": "toto@jean.fr",
+"password" :" jeantoto"
+}

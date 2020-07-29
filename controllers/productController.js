@@ -1,4 +1,4 @@
-const { Product } = require("../models/product");
+const { Product } = require("../models");
 const { v4: uuidv4 } = require("uuid");
 
 const produitController = {
@@ -12,6 +12,7 @@ const produitController = {
         "price",
         "quantity",
         "photo",
+        "description",
         "type"
       ],
       raw: true
