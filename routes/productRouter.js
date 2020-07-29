@@ -17,8 +17,12 @@ productRouter.post("/", async (req, res) => {
 });
 
 productRouter.get("/", async (req, res) => {
-  const product = await getAllProduct();
-  res.status(200).json(product);
+  try {
+    const product = await getAllProduct();
+    res.status(200).json(product);
+  } catch (error) {
+    console.log("error :>> ", error);
+  }
 });
 /*
 productRouter.put();
